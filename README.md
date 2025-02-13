@@ -33,7 +33,7 @@ The project follows Clean Architecture principles with MVVM + Coordinator patter
 ## Installation
 
 1. Clone the repository:
-`git clone https://github.com/yourusername/CryptoPrice.git`.
+`git clone https://github.com/Lon03/CryptoPrice.git`.
 
 2. Install dependencies:
 run `make setup` to start developing locally.
