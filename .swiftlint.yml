@@ -1,0 +1,48 @@
+disabled_rules:
+  - trailing_whitespace
+  - vertical_whitespace
+  - line_length
+  - identifier_name
+  - type_name
+  - function_body_length
+  - file_length
+  - cyclomatic_complexity
+  - force_cast
+  - force_try
+  - opening_brace
+  - trailing_comma
+
+opt_in_rules:
+  - empty_count
+  - empty_string
+  - closure_spacing
+  - contains_over_first_not_nil
+  - redundant_nil_coalescing
+  - overridden_super_call
+  - prohibited_super_call
+  - fatal_error_message
+  - closure_end_indentation
+  - first_where
+  - sorted_first_last
+  - object_literal
+  - explicit_init
+  - array_init
+  - joined_default_parameter
+  - pattern_matching_keywords
+  - private_outlet
+  - prohibited_interface_builder
+  - strict_fileprivate
+  - strong_iboutlet
+  - unneeded_parentheses_in_closure_argument
+
+excluded:
+  - Pods
+  - Generated
+  - DerivedData
+  - fastlane
+  - .build
+  - CryptoPriceTests
+
+analyzer_rules:
+  - unused_import
+  - unused_declaration

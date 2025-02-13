@@ -1,0 +1,6 @@
+#include "base.xcconfig"
+
+SWIFT_COMPILATION_MODE = wholemodule
+
+GEM_CODE_SIGN_IDENTITY = iPhone Distribution
+GEM_CODE_SIGN_STYLE = Automatic

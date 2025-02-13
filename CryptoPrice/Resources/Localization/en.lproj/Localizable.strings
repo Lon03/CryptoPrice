@@ -1,0 +1,17 @@
+// MARK: - Common
+"common.error" = "Error";
+"common.retry" = "Retry";
+
+// MARK: - Home
+"home.title" = "Crypto Market";
+"home.error.fetch" = "Failed to fetch cryptocurrencies: %@";
+
+// MARK: - Settings
+"settings.title" = "Settings";
+"settings.currency.title" = "Currency Preferences";
+
+// MARK: - Crypto Detail
+"crypto.detail.high" = "24h High";
+"crypto.detail.low" = "24h Low";
+"crypto.detail.open" = "Opening Price";
+"crypto.detail.volume" = "Volume";

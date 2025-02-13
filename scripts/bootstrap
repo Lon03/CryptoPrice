@@ -1,0 +1,28 @@
+#!/bin/sh
+
+# scripts/bootstrap: Resolve all dependencies that the application requires to run.
+GREEN='\033[0;32m'
+NC='\033[0m' # No Color
+
+set -ev
+
+cd "$(dirname "$0")/.."
+
+if [ -f "Brewfile" ] && [ "$(uname -s)" = "Darwin" ]; then
+  hash brew 2>/dev/null || {
+    echo >&2 "The command 'brew' is required but not installed. See https://brew.sh for installation guidelines.";
+    exit 1;
+  }
+
+  echo "${GREEN}==> Installing Homebrew dependencies…${NC}"
+  brew bundle
+fi
+
+if [ -f "Gemfile" ]; then
+  hash bundle 2>/dev/null || {
+    echo "${GREEN}==> Installing Bundler${NC}"
+    sudo gem install bundler --no-document --quiet
+  }
+  echo "${GREEN}==> Installing gem dependencies…${NC}"
+  bundle install
+fi

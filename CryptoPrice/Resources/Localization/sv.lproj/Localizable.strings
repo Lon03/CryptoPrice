@@ -1,0 +1,17 @@
+// MARK: - Common
+"common.error" = "Fel";
+"common.retry" = "Försök igen";
+
+// MARK: - Home
+"home.title" = "Kryptomarknad";
+"home.error.fetch" = "Det gick inte att hämta kryptovalutor: %@";
+
+// MARK: - Settings
+"settings.title" = "Inställningar";
+"settings.currency.title" = "Valutainställningar";
+
+// MARK: - Crypto Detail
+"crypto.detail.high" = "24h Högsta";
+"crypto.detail.low" = "24h Lägsta";
+"crypto.detail.open" = "Öppningspris";
+"crypto.detail.volume" = "Volym";

@@ -1,0 +1,8 @@
+#include "base.xcconfig"
+
+SWIFT_COMPILATION_MODE = incremental
+
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) ENABLE_DEBUG_VIEW TEST_ENVIRONMENT
+
+GEM_CODE_SIGN_IDENTITY = Apple Development
+GEM_CODE_SIGN_STYLE = Automatic

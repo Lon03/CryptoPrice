@@ -1,0 +1,4 @@
+PRODUCT_NAME = CryptoPrice
+
+GEM_PRODUCT_BUNDLE_IDENTIFIER = com.app.test.CryptoPrice
+GEM_DEVELOPMENT_TEAM =
